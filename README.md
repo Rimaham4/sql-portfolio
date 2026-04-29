@@ -22,6 +22,9 @@ Verbesserung meiner SQL- und Datenanalysefähigkeiten
 SELECT COUNT(*)
 FROM   bestellung;
 ```
+SQL-Datei:
+[count_orders.sql](sql-server/count_orders.sql)
+
 ### Beschreibung:
 Diese Abfrage zählt die Gesamtanzahl der Bestellungen in der Tabelle.
 
@@ -30,5 +33,5 @@ Diese Abfrage zählt die Gesamtanzahl der Bestellungen in der Tabelle.
 Frage:  
 Welche Kaffeesorten werden am häufigsten verkauft?
 
-SQL-Datei:  
+SQL-Datei:
 [kaffeesorten.sql](sql-server/kaffeesorten.sql)
