@@ -22,7 +22,7 @@ Die Datenbank enthält folgende Tabellen:
 
 ## Screenshot – Tabellenübersicht
 
-![Tabellen](tables.png)
+![chinook1.png](chinook-project/Chinook1.png)
 
 ## Was habe ich gelernt
 - Aufbau einer echten Datenbank verstehen
