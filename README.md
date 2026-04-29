@@ -24,3 +24,11 @@ FROM   bestellung;
 ```
 ### Beschreibung:
 Diese Abfrage zählt die Gesamtanzahl der Bestellungen in der Tabelle.
+
+### Beispiel 2: Meistverkaufte Kaffeesorten
+
+Frage:  
+Welche Kaffeesorten werden am häufigsten verkauft?
+
+SQL-Datei:  
+`/sql-server/kaffeesorten.sql`
