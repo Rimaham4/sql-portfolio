@@ -41,7 +41,7 @@ Welche Kaffeesorten werden am häufigsten verkauft?
 - ### Ergebnis:  Arabica ist die meistverkaufte Kaffeesorte (762 Verkäufe)
 - ### Ergebnis (Screenshot)
 
-![Kaffee Ergebnis](kaffeesorten0.png)
+![Kaffee Ergebnis](Image/kaffeesorten0.png)
 
 ### Erklärung
 
