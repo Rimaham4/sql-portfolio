@@ -20,6 +20,10 @@ Die Datenbank enthält folgende Tabellen:
 - employee
 - media_type
 
+## Screenshot – Tabellenübersicht
+
+![Tabellen](tables.png)
+
 ## Was habe ich gelernt
 - Aufbau einer echten Datenbank verstehen
 - Beziehungen zwischen Tabellen (Foreign Keys)
