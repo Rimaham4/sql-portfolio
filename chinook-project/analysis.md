@@ -20,10 +20,6 @@ Die Datenbank enthält folgende Tabellen:
 - employee
 - media_type
 
-## Screenshot – Tabellenübersicht
-
-![chinook1.png](chinook-project/Chinook1.png)
-
 ## Was habe ich gelernt
 - Aufbau einer echten Datenbank verstehen
 - Beziehungen zwischen Tabellen (Foreign Keys)
@@ -32,3 +28,7 @@ Die Datenbank enthält folgende Tabellen:
 ## Schwierigkeitsgrad
 Mittel
 
+## Screenshot – Tabellenübersicht
+
+![Tabellenübersicht](Chinook1.png)
+![Tabellenübersicht](Chinook2.png)
