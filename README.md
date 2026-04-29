@@ -60,14 +60,42 @@ Welche Kaffeesorten werden am häufigsten verkauft?
 SQL-Datei:
 [kaffeesorten.sql](sql-server/kaffeesorten.sql)
 
-## Weitere Projekte
+#### Beispiel 3: Durchschnittlicher Bestellwert
 
-### Coffee Sales Analyse Projekt
+## Frage:
+-- Wie hoch ist der durchschnittliche Bestellwert?
 
-Beschreibung:
+```sql
+WITH bestellung_summe AS (
+    SELECT 
+        bestellung_id,
+        SUM(verkaeufe) AS gesamtbetrag
+    FROM bestellung_details
+    GROUP BY bestellung_id
+)
+SELECT 
+    ROUND(AVG(gesamtbetrag),2) AS durchschnittlicher_bestellwert
+FROM bestellung_summe;
+```
+## Ergebnis:
+Der durchschnittliche Bestellwert beträgt etwa 44.
+
+## Beschreibung:
+Die Berechnung erfolgt in zwei Schritten:
+Zuerst wird der Gesamtbetrag pro Bestellung berechnet,
+anschließend wird der Durchschnitt über alle Bestellungen ermittelt.
+
+## Business Insight:
+Das Unternehmen kann diesen Wert nutzen,
+um Preisstrategien oder Mindestbestellwerte zu optimieren.
+
+
+##### Coffee Sales Analyse Projekt
+
+## Beschreibung:
 Analyse von Verkaufsdaten eines Kaffeeunternehmens.
 
-Inhalt:
+## Inhalt:
 - Datenaufbereitung
 - SQL-Abfragen
 - Analyse der meistverkauften Produkte
