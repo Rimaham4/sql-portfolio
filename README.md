@@ -60,3 +60,19 @@ Welche Kaffeesorten werden am häufigsten verkauft?
 SQL-Datei:
 [kaffeesorten.sql](sql-server/kaffeesorten.sql)
 
+## Weitere Projekte
+
+### Coffee Sales Analyse Projekt
+
+Beschreibung:
+Analyse von Verkaufsdaten eines Kaffeeunternehmens.
+
+Inhalt:
+- Datenaufbereitung
+- SQL-Abfragen
+- Analyse der meistverkauften Produkte
+
+
+PDF:
+[coffee_sales_analysis.pdf](projects/coffee_sales_analysis.pdf)
+
