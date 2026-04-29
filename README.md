@@ -31,4 +31,4 @@ Frage:
 Welche Kaffeesorten werden am häufigsten verkauft?
 
 SQL-Datei:  
-`/sql-server/kaffeesorten.sql`
+[kaffeesorten.sql](sql-server/kaffeesorten.sql)
