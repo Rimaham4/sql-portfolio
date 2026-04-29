@@ -2,6 +2,7 @@
 
 ## Beschreibung
 Dieses Projekt enthält SQL-Übungen und Projekte mit:
+## Tools
 - SQL Server
 - PostgreSQL
 
@@ -10,9 +11,13 @@ Dieses Projekt enthält SQL-Übungen und Projekte mit:
 - /postgresql → Datenmigration und Systemvergleich
 - /github-research → Analyse von GitHub-Profilen und Projekten
 
-## Ziel
-Verbesserung meiner SQL- und Datenanalysefähigkeiten
+## Ziel dieses Projekts
 
+Dieses Projekt zeigt meine Fähigkeit:
+- SQL-Abfragen zu schreiben
+- Daten zu analysieren
+- Businessfragen zu beantworten
+  
 ## Beispiele
 
 ### Beispiel 1: Anzahl der Bestellungen
@@ -22,6 +27,7 @@ Verbesserung meiner SQL- und Datenanalysefähigkeiten
 SELECT COUNT(*)
 FROM   bestellung;
 ```
+- Ergebnis: Gesamtanzahl aller Bestellungen :758
 SQL-Datei:
 [count_orders.sql](sql-server/count_orders.sql)
 
@@ -32,6 +38,6 @@ Diese Abfrage zählt die Gesamtanzahl der Bestellungen in der Tabelle.
 
 Frage:  
 Welche Kaffeesorten werden am häufigsten verkauft?
-
+- Ergebnis:  Arabica ist die meistverkaufte Kaffeesorte (762 Verkäufe)
 SQL-Datei:
 [kaffeesorten.sql](sql-server/kaffeesorten.sql)
