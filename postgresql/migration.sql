@@ -1,6 +1,9 @@
--- Migration
+-- Migration Beispiel von SQLite zu PostgreSQL
 
--- PostgreSQL
+-- SQLite:
+-- id INTEGER PRIMARY KEY AUTOINCREMENT
+
+-- PostgreSQL:
 CREATE TABLE customers (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100)
